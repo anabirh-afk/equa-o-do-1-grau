@@ -2,17 +2,19 @@ body{
     color:rgb(97, 17, 202);
  background:rgb(150, 96, 201);
     margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 100px;
 }
 
 header{
        border-bottom: solid 2px rgb(255, 255, 255);
        padding: 20px;
        font-size: 32px;
-       color: rgb(0, 0, 0);
+       color: #fff8f8
 }
 
 .chamada{
-    background: rgb(129, 91, 165);
+    background: rgb(114, 1, 167);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -29,9 +31,6 @@ h1{
 p{
     font-size: 20px;
 }
-img{
-    height: 200px;
-}
 .categoria-videos{
     display: flex;
     overflow-x: auto;
@@ -40,4 +39,17 @@ img{
 .categoria{
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid rgb(222, 11, 230);
+}
+.categoria h2{
+    color: aliceblue;
 }
